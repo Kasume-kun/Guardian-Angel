@@ -53,6 +53,6 @@ The extension is now active and protecting your Browse!
 To verify that the extension is working correctly, you can use these standard, harmless test links that are designed to be flagged by security software:
 
 -   **EICAR Test File**: `http://www.eicar.org/download/eicar.com.txt`
--   **AMTSO Phishing Test**: `http://phishing.test-my-security.com/`
+-   **AMTSO Phishing Test**: `https://www.amtso.org/check-desktop-phishing-page/`
 
 When you try to visit these links, the extension should block them and show the "Access Denied" page.
