@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Guardian Angel",
+  "version": "1.0",
+  "description": "Checks links with VirusTotal to block malicious sites.",
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://www.virustotal.com/"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Guardian Angel Options",
+    "default_popup": "options.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
