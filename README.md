@@ -56,5 +56,3 @@ To verify that the extension is working correctly, you can use these standard, h
 -   **AMTSO Phishing Test**: `http://phishing.test-my-security.com/`
 
 When you try to visit these links, the extension should block them and show the "Access Denied" page.
-
-## Project Files
